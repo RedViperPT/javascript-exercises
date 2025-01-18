@@ -16,6 +16,9 @@ describe('fibonacci', () => {
 	test('25th fibonacci number is 75025', () => {
 		expect(fibonacci(25)).toBe(75025);
 	});
+	test('71th fibonacci number is 75025', () => {
+		expect(fibonacci(71)).toBe(308061521170129);
+	});
 	test('0th fibonacci number is 0', () => {
 		expect(fibonacci(0)).toBe(0);
 	});
